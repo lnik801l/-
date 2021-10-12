@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    display: flex;
+    min-height: 86vh;
+    background-color: rgb(180, 182, 235);
+    text-align: center;
+    color: #ccf3ed;
+    font-size: 4vh;
+    position: relative;
+}
+.body-img-1 {
+    width: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.body-img-2 {
+    width: 100vh;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.body-img-3 {
+    width: 100vh;
+    position: absolute;
+}
+.body-img-4 {
+    width: 100vh;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.body-img-5 {
+    width: 100vh;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
